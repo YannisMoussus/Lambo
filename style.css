@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Your Font', sans-serif;
+}
+
+html {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.div-logo {
+  margin-right: 20px;
+}
+
+.logo-header {
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1.5em;
+  margin: 0;
+  padding: 1em;
+}
+
+nav a:hover {
+    color: rgba(128,128,128);
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#section1 {
+    background-image: url(/images/huracan_sterrato.jpg);
+    height: 90vh;
+}
+
+#section2 {
+    margin-top: 10px;
+    background-image: url(/images/Urus_Performante.jpg);
+    height: 90vh;
+}
+
+
+.black-section {
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.black-section .title {
+    font-size: 3em;
+}
+
+.black-section .subtitle {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.link-section {
+    color: #06c;
+    font-size: 1.2em;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+#section3 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+    margin: 1em;
+    height: auto;
+}
+
+#block-img1 {
+    background-image: url(/images/Miura.jpg);
+}
+
+.block-img {
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    min-height: 90vh;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+.text-white {
+    color: #fff;
+}
+
+#block-img2 {
+    background-image: url(/images/lamborghini_sc20.jpg);
+}
+
+#block-img3 {
+    background-image: url(/images/lamborghini-sesto-elemento_1.jpg);
+}
+
+#block-img4 {
+    background-image: url(/images/lamborghini-aventador-lp-780-4-ultimae.jpg);
+}
+
+#block-img5 {
+    background-image: url(/images/logo-hone-contenu-new_1.jpg);
+}
+
+#block-img6 {
+    background-image: url(/images/1200-L-une-lamborghini-aventador-avec-des-chanes-neige-cest-inutile-mais-trs-impressionnant.jpg);
+}
+
+footer {
+    background: #181818;
+    padding: 6vh;
+    color: #dedee3;
+    display: block;
+}
+
+.content-footer {
+    border-top: 1px solid #d2d2db;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,16%);
+    justify-content: center;
+    gap: 1em;
+    max-width: 80%;
+    margin: 0 auto;
+}
